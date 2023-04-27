@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/wid-front",
-            "index": "src/index.html",
+            "index": "src/app/landing/landing.component.html",
             "main": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -25,9 +25,22 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/animate.css",
+              "src/assets/css/style.css",
+              "src/assets/font-awesome/css/font-awesome.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.1.1.min.js",
+              "src/assets/js/inspinia.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/chart.funnel.min.js",
+              "src/assets/js/plugins/metisMenu/jquery.metisMenu.js",
+              "src/assets/js/plugins/slimscroll/jquery.slimscroll.min.js",
+              "src/assets/js/plugins/pace/pace.min.js",
+              "src/assets/js/plugins/wow/wow.min.js"
+            ]
           },
           "configurations": {
             "production": {
